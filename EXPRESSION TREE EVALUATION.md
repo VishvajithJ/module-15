@@ -21,12 +21,19 @@ To write a Python program to build and evaluate the given expression tree.
 
 ## Program
 
-```python
+```
+from binarytree import build
+nodes=['*','+','-',9,3,8,4]
+root=build(nodes)
+print(root.inorder)
+print(root.postorder)
 
 ```
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/97644e8f-959b-45a3-b6cc-44ed013e76db)
+
 
 
 ## RESULT
-
+The program successfully builds an expression tree from the given list of nodes and prints the inorder and postorder traversals of the tree. This confirms the correct structure of the expression tree. However, the actual evaluation of the expression is not performed in the current code.
